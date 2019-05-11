@@ -34,7 +34,7 @@ import com.pamten.microservice.training.service.StudentService;
  *
  */
 @Api(value = "Student Controller to test student service", tags = "Student service")
-@RequestMapping("/api/training")
+@RequestMapping("/api")
 @RestController
 public class StudentController {
 
